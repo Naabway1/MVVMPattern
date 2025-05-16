@@ -27,7 +27,6 @@ namespace MVVMPattern
             InitializeComponent();
             var navigation = new Navigation(myframe);
             DataContext = new MainVM(navigation);
-            myframe.Navigate(new AuthPage() { DataContext = DataContext} );
         }
     }
 }

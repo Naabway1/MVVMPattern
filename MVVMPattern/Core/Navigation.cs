@@ -26,6 +26,9 @@ public class Navigation
             case "MainPage":
                 page = new MainPage();
                 break;
+            case "RegistrationPage":
+                page = new RegistrationPage();
+                break;
             default:
                 throw new ArgumentException("Неизвестная страница ", nameof(pageName));
         }
